@@ -1,0 +1,24 @@
+{
+  "name": "veltrix-security-layer",
+  "version": "1.0.0",
+  "description": "Enterprise-grade AI Security Layer for the Robinhood EVM network.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "audit": "node scripts/audit-scanner.js",
+    "monitor": "node scripts/threat-monitor.js",
+    "deploy": "node scripts/mock-deploy.js"
+  },
+  "keywords": [
+    "solidity",
+    "audit",
+    "threat-detection",
+    "evm-security",
+    "robinhood-evm",
+    "ai-firewall"
+  ],
+  "author": "Veltrix Labs",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
